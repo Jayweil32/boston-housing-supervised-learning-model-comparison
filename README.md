@@ -46,7 +46,7 @@ R with the following packages: MASS, tidyverse, ggplot2, rpart / rpart.plot, FNN
 
 ## How to Run
 
-Open scripts/Boston_Housing_Case_Study_Weil.R in RStudio (or your R environment of choice).
+Open scripts/Boston_Housing_Case_Study_Weil.R in R Studio (or your R environment of choice).
 
 Install any missing packages: install.packages(c("MASS","tidyverse","ggplot2","rpart","rpart.plot","FNN","randomForest","gbm","mgcv","neuralnet"))
 
