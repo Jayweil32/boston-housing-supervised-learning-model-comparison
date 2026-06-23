@@ -14,7 +14,7 @@ Source: Boston dataset from the MASS package in R
 Observations: 506 census tracts in the Boston area
 Target variable: medv — median home value (in $1000s)
 Predictors: 13 variables including crime rate (crim), average rooms per dwelling (rm), pupil-teacher ratio (ptratio), percent lower-status population (lstat), and others
-Split: 80% train / 20% test (seed set to student M-number for reproducibility)
+Split: 80% train / 20% test (seed set for reproducibility)
 
 ## Models Compared
 
@@ -46,8 +46,10 @@ R with the following packages: MASS, tidyverse, ggplot2, rpart / rpart.plot, FNN
 
 ## How to Run
 
-Open scripts/Boston_Weil_Jay.R in RStudio (or your R environment of choice).
+Open scripts/Boston_Housing_Case_Study_Weil.R in RStudio (or your R environment of choice).
+
 Install any missing packages: install.packages(c("MASS","tidyverse","ggplot2","rpart","rpart.plot","FNN","randomForest","gbm","mgcv","neuralnet"))
+
 Run the script top to bottom — it loads the data, performs EDA, fits all seven models, and compiles results into a summary table (boston_models_results).
 
 ## Author
