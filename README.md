@@ -28,9 +28,17 @@ Neural Network
 
 ## Results
 
-MethodASE (in-sample)MSPE (out-of-sample)Linear Model23.1917.23Regression Tree13.7221.78k-NN (k=3)9.0911.53Random Forest2.138.17Boosting0.289.24GAM11.6812.62Neural Network (scaled X&Y)4.7019.00
+| Method | ASE (in-sample) | MSPE (out-of-sample) |
+|---|---|---|
+| Linear Model | 23.19 | 17.23 |
+| Regression Tree | 13.72 | 21.78 |
+| k-NN (k=3) | 9.09 | 11.53 |
+| **Random Forest** | **2.13** | **8.17** |
+| Boosting | 0.28 | 9.24 |
+| GAM | 11.68 | 12.62 |
+| Neural Network (scaled X&Y) | 4.70 | 19.00 |
 
-Takeaway: Random Forest achieved the best out-of-sample performance overall. Boosting posted the lowest in-sample error (0.28), but its higher MSPE relative to Random Forest suggests some overfitting — a reminder that in-sample fit alone isn't a reliable indicator of real-world predictive performance.
+**Takeaway:** Random Forest achieved the best out-of-sample performance overall. Boosting posted the lowest in-sample error (0.28), but its higher MSPE relative to Random Forest suggests some overfitting — a reminder that in-sample fit alone isn't a reliable indicator of real-world predictive performance.
 
 ## Tools Used
 
