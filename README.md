@@ -18,13 +18,13 @@ Split: 80% train / 20% test (seed set for reproducibility)
 
 ## Models Compared
 
-Linear Model
-Regression Tree
-k-Nearest Neighbors
-Random Forest
-Boosting
-GAM
-Neural Network
+Linear Model,
+Regression Tree,
+k-Nearest Neighbors,
+Random Forest,
+Boosting,
+GAM,
+Neural Network,
 
 ## Results
 
